@@ -1,0 +1,79 @@
+/************************************************Carátulas*************************************************/
+
+h3{
+    margin-left: 1.5%;
+    margin-top:4%;
+}
+.covers {
+    margin-top:15px;
+    padding-bottom: 15px;
+    margin-left: 1%;
+    margin-right:1%;
+}
+
+.covers ul{
+display:flex;
+justify-content: space-between;
+padding-top: 25px;
+
+}
+
+.covers ul li{
+    list-style: none;
+    padding: 8px;
+}
+
+.covers li a img{
+    width: 200px; 
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 10%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Botones Play y Plus*/
+.buttons{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -75%;
+    opacity: 0;
+}
+.imagesText{
+    color: white;
+    margin: 5px 0px 0px 0px;
+    font-size: 14px; 
+}
+.imagesSubText{
+    color: white;
+    font-size: 8px;
+    margin: 3px 0px;
+    font-size: 14px;
+}
+/*Visualización de botones*/
+.icons {
+    margin-top: 40px;
+}
+
+ .icons:hover .buttons{ 
+    opacity: 1;
+    cursor: pointer;
+ }
+ .div-buttons{
+     display: flex;
+     justify-content: space-around;
+ }
+ .div-buttons img{
+     padding-left: 5px;
+ }
+ .buttons p{
+    padding-left: 5px;
+ }
+.imagesIcon{
+    height: 30px;
+    width: 30px;    
+}
+ 
+/************************************************Carátulas*************************************************/

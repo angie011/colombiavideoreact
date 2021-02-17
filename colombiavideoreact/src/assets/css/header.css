@@ -1,0 +1,78 @@
+.name-logo{
+    display:flex;
+}
+
+.name-logo p{
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 1%;/*15px;*/
+    margin-left: 1%;
+}
+
+
+/*************************************************Logo perfil******************************************************/
+.profile-logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -4.5%;
+    margin-right: 2%;
+    margin-left: 74%;
+
+}
+
+.profile-logo p{   /*Perfil*/
+    margin-top: 1%;
+    padding-left: 1%;
+    cursor: pointer;
+}
+/*************************************************Logo perfil******************************************************/
+
+/*Despliega opciones de menú Perfil*/
+
+.menu {
+	margin-right: 30px;
+}
+
+.menu ul {
+  display: none;
+  list-style: none;
+  text-align: right;
+  margin: 0px 0px 0px -14px;  
+  position: absolute;
+}
+
+.menu:hover ul, ul:hover {
+	display: block;
+}
+
+.menu li {
+  margin: 10px 0px;
+}
+
+.menu li a {
+  /*color: white; */
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.menu-profile {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  margin-top: 115px;
+}
+
+.menu-profile img {
+  margin-right: 8px;
+  width: 40px;
+}
+/*Despliega opciones de menú Perfil*/

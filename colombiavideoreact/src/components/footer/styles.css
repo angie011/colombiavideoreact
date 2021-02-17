@@ -1,0 +1,24 @@
+/************************************************Footer****************************************************/
+.ul-footer{
+    margin-bottom: 2%;
+}
+
+.ul-footer ul{
+    display: flex;
+    flex-direction: row;
+    padding-top:20px;
+    margin-left: 2%;
+    list-style: none;
+}
+.ul-footer ul li{
+    padding-right: 3%;
+}
+
+.ul-footer ul li a {
+    text-decoration: none;
+}
+
+.ul-footer ul li a:hover{
+    text-decoration: underline;
+}
+/************************************************Footer****************************************************/

@@ -1,0 +1,137 @@
+/*************************************************Formulario******************************************************/
+/*Contenedor de todos los elementos del formulario*/
+.div-form{
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 700px;
+    padding: 60px 68px 40px;
+    width: 300px;
+    margin-left: 35%;
+    }
+/*Contenedor de elementos del formulario*/
+
+/*Contenedor de los campos: "Correo", "Contraseña" y botón "Iniciar sesión"*/
+    .div-form form{
+        display:flex;
+        flex-direction: column;
+        padding-top: 5%;
+    }  
+/*Contenedor de los campos: "Correo", "Contraseña" y botón "Iniciar sesión"*/
+
+/*Estilos de los campos input*/
+    .div-form form input{
+        background-color: transparent;
+        border-bottom: 2px solid white;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        color: white;
+        font-family: 'Muli', sans-serif;
+        font-size: 16px;
+        height: 50px;
+        margin-bottom: 20px;
+        outline: none;
+        padding: 0px 20px;
+        
+    } 
+    ::placeholder{
+        color:white;
+    }
+/*Estilos de los campos input*/
+
+/*Botón "Iniciar sesión"*/
+    button{
+        background-color: rgba(255, 255, 255, 0.3);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Muli', sans-serif;
+        height: 50px;
+        letter-spacing: 1px;
+        margin: 10px 0px;
+    }
+/*Botón "Iniciar sesión"*/    
+
+/*Contenedor de Checkbox y labels*/
+.options{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+}
+/*Contenedor de Checkbox y labels*/
+
+/*Checkbox y label "Recuérdame"*/
+.options label{
+        /*margin-right: 16%;*/
+        margin-top: 6%;
+        font-size: 14px;
+        /*margin-left: -15%;*/
+        margin-right:35%;
+}
+.options input{
+    /*height: 15%;*/
+}
+/*Checkbox y label "Recuérdame"*/
+
+/*Olvidé mi contraseña*/
+.options a{
+    text-decoration: none;
+    margin-top: -1%;
+    font-size: 14px;
+    padding-right: 6%;
+    
+}
+.options a:hover{
+    text-decoration: underline;
+}
+/*Olvidé mi contraseña*/
+
+/*Regístrate*/
+.div-form p a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.div-form p a:hover{
+    text-decoration: underline;
+}
+/*Regístrate*/
+
+/*Google*/
+.google{
+    display: flex;
+    justify-content: space-between;
+}
+.google p {
+    margin-right: 26%;
+}
+.google img{
+    margin-top: -1%;
+}
+/*Google*/
+
+/*Twitter*/
+.twitter{
+    display: flex;
+    justify-content: space-between;
+}
+.twitter img{
+    margin-top: -15%;
+    margin-bottom: 5%;
+}
+.twitter p{
+    margin-right: 26%;
+    margin-top: -15%;
+}
+/*Twitter*/
+
+/*************************************************Formulario******************************************************/ 
